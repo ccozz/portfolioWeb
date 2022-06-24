@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+#logoArg {
+  max-width: 13em;
+}
+#redesIco a {
+  color: #70726F;
+  padding: 5em;
+  border-right: 1em solid #70726F;
+  text-align: right;
+}
+
+#redesIco:hover {
+  color: white;
+}
+
+#faceIco {
+  max-width: 2em;
+  color: white;
+  margin-right: 1em;
+  filter: invert(100%);
+}
+
+.modal-dialog {
+  background-color: #373737;
+}
+
+.logoArgentina {
+  float:left;
+}
+
+.redes {
+  margin-left: auto;
+}
+
