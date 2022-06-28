@@ -86,7 +86,7 @@ padding-top: 33%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 120%;
-  color: cyan;
+  color: #6ab8e8;
 }
 
 .aux {
@@ -207,4 +207,13 @@ padding-top: 33%;
   .aux {
     top: -20%;
   }
+}
+
+/* Modal */
+#exampleModal {
+  color: white;
+}
+
+.loginTitle {
+  text-transform: uppercase;
 }
