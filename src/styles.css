@@ -136,22 +136,22 @@ padding-top: 33%;
 
   .tituloBanner {
     font-weight: 350;
-    font-size: 200%;
+    font-size: 1.6em;
   }
 
   .tituloBanner2 {
     font-weight: 350;
-    font-size: 150%;
+    font-size: 1.3em;
   }
 
   .subtituloBanner {
     font-weight: 200;
-    font-size: 120%;
+    font-size: 1.1em;
   }
 
   .textoBanner2 {
     font-weight: 200;
-    font-size: 100%;
+    font-size: 1em;
   }
 
   .aux {
@@ -166,22 +166,22 @@ padding-top: 33%;
 
   .tituloBanner {
     font-weight: 350;
-    font-size: 130%;
+    font-size: 1.1em;
   }
 
   .tituloBanner2 {
     font-weight: 350;
-    font-size: 115%;
+    font-size: .9em;
   }
 
   .subtituloBanner {
     font-weight: 200;
-    font-size: 100%;
+    font-size: .8em;
   }
 
   .textoBanner2 {
     font-weight: 200;
-    font-size: 100%;
+    font-size: .8em;
   }
 
   .aux {
