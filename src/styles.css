@@ -1,3 +1,4 @@
+/* app component-------------------------------- */
 #logoArg {
   max-width: 13em;
 }
@@ -39,20 +40,16 @@ body, html {
   height: 100%;
 }
 
-/* The hero image */
+/* banner component ----------------------------------- */
+
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-background-image: url("../../bannerNuevo.png");
-
-/* Set a specific height */
-height: 100%;
-
-/* Position and center the image to scale nicely on all screens */
-background-repeat: no-repeat;
-background-size: cover;
-position:relative;
-z-index: -1;
-padding-top: 33%;
+  background-image: url("../../bannerNuevo.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  z-index: -1;
+  padding-top: 33%;
 }
 
 .textoBanner {
@@ -89,6 +86,7 @@ padding-top: 33%;
   color: #6ab8e8;
 }
 
+/* acerca-de component ------------------------------------------*/
 .aux {
   position:relative;
   top: -33%;
@@ -99,6 +97,7 @@ padding-top: 33%;
   width: 33%;
 }
 
+/* media queries ------------------------------------------------ */
 @media (max-width: 992px) {
   .hero-image {
     height: 80%;
@@ -209,11 +208,20 @@ padding-top: 33%;
   }
 }
 
-/* Modal */
+/* login component -------------------------------------------- */
 #exampleModal {
   color: white;
 }
 
 .loginTitle {
   text-transform: uppercase;
+}
+
+.email-login {
+
+}
+
+.password-login {
+  margin-top: 1em;
+  margin-bottom: .8em;
 }
