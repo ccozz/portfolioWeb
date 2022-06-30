@@ -97,6 +97,12 @@ body, html {
   width: 33%;
 }
 
+.items-acerca-de{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
 /* media queries ------------------------------------------------ */
 @media (max-width: 992px) {
   .hero-image {
@@ -217,11 +223,11 @@ body, html {
   text-transform: uppercase;
 }
 
-.email-login {
-
-}
-
 .password-login {
   margin-top: 1em;
   margin-bottom: .8em;
+}
+
+.modal {
+  font-family: 'Montserrat', sans-serif;
 }
