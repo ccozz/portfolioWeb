@@ -1,6 +1,6 @@
 /* app component-------------------------------- */
 #logoArg {
-  max-width: 13em;
+  height: 8vw;
 }
 #redesIco a {
   color: #70726F;
@@ -44,37 +44,38 @@ body, html {
 
 .hero-image {
   background-image: url("../../bannerNuevo.png");
-  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
   z-index: -1;
-  padding-top: 33%;
+  padding-top: 41vw;
+  overflow: hidden;
 }
 
 .textoBanner {
   text-align: center;
   position: absolute;
-  top: 33%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
 }
 
 .tituloBanner {
   font-weight: 500;
-  font-size: 250%;
+  font-size: 4vw;
 }
 
 .subtituloBanner {
   font-weight: 200;
-  font-size: 150%;
+  font-size: 2.5vw;
 }
 
 .tituloBanner2 {
   font-weight: 500;
-  font-size: 200%;
+  font-size: 3vw;
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
@@ -82,14 +83,14 @@ body, html {
 .textoBanner2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 120%;
+  font-size: 2vw;
   color: #6ab8e8;
 }
 
 /* acerca-de component ------------------------------------------*/
 .aux {
   position:relative;
-  top: -33%;
+  top: -8.5vw;
   z-index: -2;
 }
 
@@ -99,119 +100,25 @@ body, html {
 
 .items-acerca-de{
   color: white;
-  font-size: 1.5rem;
+  font-size: 2vw;
 }
 
 
 /* media queries ------------------------------------------------ */
 @media (max-width: 992px) {
-  .hero-image {
-    height: 80%;
-  }
 
-  .tituloBanner {
-    font-weight: 400;
-    font-size: 220%;
-  }
-
-  .tituloBanner2 {
-    font-weight: 400;
-    font-size: 170%;
-  }
-
-  .subtituloBanner {
-    font-weight: 200;
-    font-size: 130%;
-  }
-
-  .textoBanner2 {
-    font-weight: 200;
-    font-size: 105%;
-  }
-
-  .aux {
-    top: -27%;
-  }
 }
 
 @media (max-width: 768px) {
-  .hero-image {
-    height: 65%;
-  }
 
-  .tituloBanner {
-    font-weight: 350;
-    font-size: 1.6em;
-  }
-
-  .tituloBanner2 {
-    font-weight: 350;
-    font-size: 1.3em;
-  }
-
-  .subtituloBanner {
-    font-weight: 200;
-    font-size: 1.1em;
-  }
-
-  .textoBanner2 {
-    font-weight: 200;
-    font-size: 1em;
-  }
-
-  .aux {
-    top: -27%;
-  }
 }
 
 @media (max-width: 576px) {
-  .hero-image {
-    height: 55%;
-  }
 
-  .tituloBanner {
-    font-weight: 350;
-    font-size: 1.1em;
-  }
-
-  .tituloBanner2 {
-    font-weight: 350;
-    font-size: .9em;
-  }
-
-  .subtituloBanner {
-    font-weight: 200;
-    font-size: .8em;
-  }
-
-  .textoBanner2 {
-    font-weight: 200;
-    font-size: .8em;
-  }
-
-  .aux {
-    top: -22%;
-  }
 }
 
 @media (max-width: 400px) {
-  .hero-image {
-    height: 40%;
-  }
 
-  .tituloBanner, .tituloBanner2 {
-    font-weight: 350;
-    font-size: 110%;
-  }
-
-  .subtituloBanner, .textoBanner2 {
-    font-weight: 200;
-    font-size: 80%;
-  }
-
-  .aux {
-    top: -20%;
-  }
 }
 
 /* login component -------------------------------------------- */
