@@ -49,7 +49,7 @@ body, html {
 /* banner component ----------------------------------- */
 
 .hero-image {
-  background-image: url("../../bannerNuevo.png");
+  background-image: url("../src/assets/img/bannerNuevo2.png");
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
@@ -61,7 +61,7 @@ body, html {
 .textoBanner {
   text-align: center;
   position: absolute;
-  top: 40%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -94,17 +94,40 @@ body, html {
 }
 
 /* acerca-de component ------------------------------------------*/
-.aux {
-  position:relative;
-  top: -8.5vw;
-  z-index: -2;
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% auto auto 10%;
+  gap: none;
+  padding: none;
+  text-align: center;
   background-image: url("../src/assets/img/acerca-de.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
+  position:relative;
+  top: -8.7vw;
+  z-index: -2;
 }
 
-.tarjeta {
-  width: 33%;
+.titulo{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  padding-top: 1vw;
+}
+
+.about {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-top: 1vw;
+}
+
+.items-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.items-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .items-acerca-de{
@@ -129,28 +152,8 @@ body, html {
     margin-bottom: .1vw;
   }
 
-  .hero-image {
-    background-size: cover;
-    position:relative;
-    z-index: -1;
-    padding-top: 41vw;
-    min-height: 70vw;
-  }
 
-  .aux {
-    position:relative;
-    top: -23vw;
-    z-index: -2;
-    padding: -2vw;
-  }
 
-  .textoBanner {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    color: white;
-    font-size: 2vw;
-  }
 }
 
 @media (max-width: 400px) {
