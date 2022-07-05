@@ -186,6 +186,8 @@ body, html {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
+  background-image: url("../src/assets/img/acerca-de-movil.png");
+  background-size: cover;
   padding-top: 4vw;
   padding-bottom: 2vw;
   position:relative;
