@@ -1,6 +1,12 @@
 /* app component-------------------------------- */
+.barra-nav {
+min-height: 6vw;
+}
+
 #logoArg {
-  height: 8vw;
+  height: 3.5vw;
+  margin-top: .3vw;
+  margin-bottom: .3vw;
 }
 #redesIco a {
   color: #70726F;
@@ -92,6 +98,9 @@ body, html {
   position:relative;
   top: -8.5vw;
   z-index: -2;
+  background-image: url("../src/assets/img/acerca-de.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .tarjeta {
@@ -114,7 +123,34 @@ body, html {
 }
 
 @media (max-width: 576px) {
+  #logoArg {
+    height: 7vw;
+    margin-top: .1vw;
+    margin-bottom: .1vw;
+  }
 
+  .hero-image {
+    background-size: cover;
+    position:relative;
+    z-index: -1;
+    padding-top: 41vw;
+    min-height: 70vw;
+  }
+
+  .aux {
+    position:relative;
+    top: -23vw;
+    z-index: -2;
+    padding: -2vw;
+  }
+
+  .textoBanner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 400px) {
