@@ -1,0 +1,72 @@
+/* app component-------------------------------- */
+.barra-nav {
+  min-height: 6vw;
+  }
+
+  .navbar-icons {
+    width: .5vw;
+  }
+
+  #logoArg {
+    height: 3.5vw;
+    margin-top: .3vw;
+    margin-bottom: .3vw;
+  }
+
+  #redesIco a {
+    color: #70726F;
+    padding: 5em;
+    border-right: 1em solid #70726F;
+    text-align: right;
+  }
+
+  #redesIco:hover {
+    color: white;
+  }
+
+  #faceIco {
+    max-width: 2em;
+    color: white;
+    margin-right: 1em;
+    filter: invert(100%);
+  }
+
+  .modal-dialog {
+    background-color: #373737;
+  }
+
+  .logoArgentina {
+    float:left;
+  }
+
+  .redes {
+    margin-left: auto;
+    margin-top: 1.5vw;
+  }
+
+  .navbar-toggler-icon {
+    color: white;
+  }
+
+  /* media queries -------------------------------------------------   */
+
+  @media (max-width: 768px) {
+    #logoArg {
+      height: 5vw;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    #logoArg {
+      height: 7vw;
+      margin-top: .1vw;
+      margin-bottom: .1vw;
+    }
+
+    #faceIco {
+      padding:none;
+      margin: 1.5vw;
+      margin-top: 3vw;
+    }
+  }
