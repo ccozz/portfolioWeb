@@ -1,0 +1,17 @@
+/* login component -------------------------------------------- */
+#exampleModal {
+  color: white;
+}
+
+.loginTitle {
+  text-transform: uppercase;
+}
+
+.password-login {
+  margin-top: 1em;
+  margin-bottom: .8em;
+}
+
+.modal {
+  font-family: 'Montserrat', sans-serif;
+}

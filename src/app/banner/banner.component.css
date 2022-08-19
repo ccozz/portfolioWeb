@@ -1,0 +1,76 @@
+/* banner component ----------------------------------- */
+
+.hero-image {
+  background-image: url("../../assets/img/bannerNuevo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  padding-top: 41vw;
+  z-index: -1;
+}
+
+.textoBanner {
+  text-align: center;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+}
+
+.tituloBanner {
+  font-weight: 500;
+  font-size: 4vw;
+}
+
+.subtituloBanner {
+  font-weight: 200;
+  font-size: 2.5vw;
+}
+
+.tituloBanner2 {
+  font-weight: 500;
+  font-size: 3vw;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.textoBanner2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2vw;
+  color: #6ab8e8;
+}
+
+
+/* media queries--------------------------------------------- */
+@media (max-width: 576px) {
+
+  #logoArg {
+    height: 7vw;
+    margin-top: .1vw;
+    margin-bottom: .1vw;
+  }
+
+  .textoBanner {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .tituloBanner {
+    font-weight: 500;
+    font-size: 4.7vw;
+  }
+
+  .subtituloBanner {
+    font-weight: 200;
+    font-size: 3vw;
+    margin-top: -1.5vw;
+  }
+}
