@@ -8,6 +8,14 @@ import { LoginComponent } from './login/login.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule, Routes } from '@angular/router';
+import { EducacionComponent } from './educacion/educacion.component';
+import { SkillsComponent } from './skills/skills.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +25,15 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
     LoginComponent,
     HeaderComponent,
     NavbarComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    PortfolioComponent,
+    EducacionComponent,
+    SkillsComponent,
+    ProyectosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

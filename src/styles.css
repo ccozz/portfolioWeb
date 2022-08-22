@@ -1,0 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(0,0,0), rgba(0,0,0,.92)), url("src/assets/img/trama1.jpg");
+  color: white;
+}
+
+.block-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
