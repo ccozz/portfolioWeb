@@ -10,3 +10,40 @@ p {
   margin-top: 20%;
   margin-bottom: 20%;
 }
+
+.soft-skills {
+  background-image: url(../../assets/img/fondo-skills.png);
+  background-size: 47%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-skills2 {
+  background-image: url(../../assets/img/fondo-skills2.png);
+  background-size: 33%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-skills3 {
+  background-image: url(../../assets/img/fondo-skills3.png);
+  background-size: 47%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-skills4 {
+  background-image: url(../../assets/img/fondo-skills4.png);
+  background-size: 44%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-skills5 {
+  background-image: url(../../assets/img/fondo-skills5.png);
+  background-size: 29%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.soft-skills6 {
+  background-image: url(../../assets/img/fondo-skills6.png);
+  background-size: 44%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,24 @@
+.proyecto {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.nombre-proy {
+  padding: 3vh;
+  font-size: 125%;
+}
+
+.fecha {
+  font-size: 110%;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.descripcion {
+  font-size: 100%;
+  font-weight: 200;
+}
